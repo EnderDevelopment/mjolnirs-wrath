@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "mjolnir_mod",
+  "version": "${mod_version}",
+  "name": "Mjolnir Mod",
+  "description": "A Minecraft mod that adds Mjölnir, Thor's Hammer, with custom mechanics and abilities.",
+  "authors": ["EnderDevelopment"],
+  "contact": {
+    "homepage": "https://enderdevelopment.com",
+    "sources": "https://github.com/enderdevelopment/mjolnir-mod"
+  },
+  "license": "MIT",
+  "icon": "assets/mjolnir_mod/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.enderdevelopment.mjolnir.MjolnirMod"
+    ]
+  },
+  "mixins": [
+    "mjolnir.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.0",
+    "fabric-api": "*",
+    "minecraft": "1.21.11"
+  }
+}
